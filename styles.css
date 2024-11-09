@@ -245,11 +245,29 @@ body {
 }
 
 
+.schedule-note {
+  margin-top: 2rem; /* Space above the note */
+  display: block;
+  align-items: left;
+  font-size: 0.5em; /* Adjust font size as needed */
+  color: #6b4f38; /* Match the theme color */
+}
+
+.note-icon {
+  margin-right: 10px; /* Space between the icon and the text */
+  font-size: 1rem; /* Adjust icon size as needed */
+}
+
+.note-text {
+  font-weight:200;
+}
+
+
 
 
 /* Section Styling */
 .rsvp-link {
-  padding: 40px 20px;
+  padding: 20px 20px;
   text-align: center;
   margin-bottom: 20px;
   background-color: #f9f9f9;
