@@ -129,7 +129,7 @@ body {
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   .large-couple-photo {
-      /* background-size:contain; */
+      background-size:contain;
       background-position:66% center;
 
   }
