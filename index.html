@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siyu Peng & Qun Wang's Wedding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <img src="assets/icon.png" alt="Wedding Icon" class="header-icon">
+        <h1>Siyu & Qun</h1>
+        <p class="header-subtitle">Join us in celebrating our special day<br>
+            Saturday 7th December 2024</br></p>
+    </header>
+
+    <!-- Photo Slideshow at the Top -->
+    <section class="photo-slideshow">
+        <div class="slideshow-container">
+            <img src="assets/couple1.jpg" class="slide" alt="Photo 1">
+            <img src="assets/couple2.jpg" class="slide" alt="Photo 2">
+            <img src="assets/couple3.jpg" class="slide" alt="Photo 3">
+            <img src="assets/couple4.jpg" class="slide" alt="Photo 4">
+            <img src="assets/couple5.jpg" class="slide" alt="Photo 5">
+            <img src="assets/couple6.jpg" class="slide" alt="Photo 6">
+            <img src="assets/couple7.jpg" class="slide" alt="Photo 7">
+            <img src="assets/couple8.jpg" class="slide" alt="Photo 8">
+            <button class="prev" onclick="changeSlide(-1)">❮</button>
+            <button class="next" onclick="changeSlide(1)">❯</button>
+        </div>
+    </section>
+
+    <!-- Schedule Section -->
+    <section class="schedule">
+        <h2>Schedule</h2>
+        <!-- <p class="schedule-date">Saturday 7th December 2024</p> -->
+        
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-time">09:30am</div>
+                <div class="timeline-content">
+                    <h3>Ceremony</h3>
+                    <p>Margaret Craig Room<br>
+                        Old Treasury Building, 20 Spring St, East Melbourne, VIC 3002<br></p>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=Old+Treasury+Building,+20+Spring+St,+East+Melbourne,+VIC+3002" target="_blank">
+                        Get Directions</a>
+                </div>
+            </div>
+    
+            <div class="timeline-item">
+                <div class="timeline-time">12:00pm</div>
+                <div class="timeline-content">
+                    <h3>Lunch</h3>
+                    <p>ARU Restaurant<br>
+                        268 Little Collins St, Melbourne VIC 3000<br></p>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=268+Little+Collins+St%2C+Melbourne+VIC+3000%2C+Australia" target="_blank">
+                        Get Directions</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Link -->
+    <section class="rsvp-link">
+        <a href="rsvp.html" class="rsvp-button">RSVP Now</a>
+    </section>
+        
+
+    <!-- Large Photo Section -->
+    <section class="large-couple-photo"></section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
