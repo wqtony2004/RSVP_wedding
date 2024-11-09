@@ -68,24 +68,25 @@
             </div>
         </div>
         
-        <!-- Note with icon -->
-        <div class="schedule-note">
-            <span class="note-icon">📝</span>
-            <span class="note-text">Please revisit this page before attending the event to stay updated.</span>
-        </div>
     </section>
-
+    
     <!-- RSVP Link -->
     <section class="rsvp-link">
         <a href="rsvp.html" class="rsvp-button">RSVP Now</a>
+        <!-- Note with icon -->
+        <div class="schedule-note">
+            <span class="note-icon">📝</span>
+            <span class="note-text">Please RSVP by 16th November, and revisit this page to stay updated.</span>
+        </div>
     </section>
     
     
-    <!-- Background audio element -->
-    <audio autoplay loop hidden>
+    <div id="audio-overlay">Welcome</div>
+    <audio id="background-audio" loop>
         <source src="assets/love-story.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+
 
     <!-- Large Photo Section -->
     <section class="large-couple-photo"></section>

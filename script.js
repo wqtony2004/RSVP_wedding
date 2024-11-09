@@ -23,12 +23,35 @@ setInterval(() => {
 showSlide(currentSlide);
 
 
+// document.addEventListener('DOMContentLoaded', function() {
+//     const audioElement = document.getElementById('background-audio');
+//     const overlay = document.getElementById('audio-overlay');
+
+//     overlay.addEventListener('click', function() {
+//         audioElement.play().then(() => {
+//             overlay.style.display = 'none'; // Hide overlay after audio starts
+//         }).catch((error) => {
+//             console.error('Error playing audio:', error);
+//         });
+//     });
+// });
+
+
 document.addEventListener('DOMContentLoaded', function() {
-    const audioElement = document.querySelector('audio');
-    if (audioElement) {
-        audioElement.volume = 0.1; // Sets the volume to 50%
-    }
+    const audioElement = document.getElementById('background-audio');
+    const overlay = document.getElementById('audio-overlay');
+
+    overlay.addEventListener('click', function() {
+        audioElement.play().then(() => {
+            overlay.style.display = 'none'; // Hide overlay after audio starts
+        }).catch((error) => {
+            console.error('Error playing audio:', error);
+        });
+    });
 });
+
+
+
 
 
 
