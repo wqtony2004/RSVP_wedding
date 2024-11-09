@@ -23,6 +23,14 @@ setInterval(() => {
 showSlide(currentSlide);
 
 
+document.addEventListener('DOMContentLoaded', function() {
+    const audioElement = document.querySelector('audio');
+    if (audioElement) {
+        audioElement.volume = 0.1; // Sets the volume to 50%
+    }
+});
+
+
 
 
 // document.getElementById("rsvpForm")?.addEventListener("submit", function(event) {
