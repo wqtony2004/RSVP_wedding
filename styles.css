@@ -307,3 +307,13 @@ body {
   cursor: pointer;
   font-family: 'Dancing Script', cursive; /* Apply Dancing Script font */
 }
+
+
+.footer-note {
+  text-align: center;
+  font-size: 0.75rem; /* Small font size */
+  color: #666; /* Subtle color */
+  margin-top: 20px;
+  padding: 10px 0;
+  font-family: 'Dancing Script', cursive; /* Apply the same font for artistic consistency */
+}
